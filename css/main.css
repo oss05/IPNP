@@ -20,6 +20,7 @@ body {
 .custom-button-color {
   background-color: #B03648 !important;
   color: #fff;
+  border: none;
 }
 
 .custom-button-color:hover {
@@ -153,6 +154,10 @@ nav>a img {
   display: none;
 }
 
+.auto-evaluation {
+  margin-top: 5em;
+}
+
 @media only screen and (max-width: 1000px) {
   .main-sidenav {
     margin-left: 0;
@@ -170,4 +175,8 @@ nav>a img {
     width: 100%;
   }
 
+  .auto-evaluation {
+    margin-top: 3em;
+  }
+  
 }
