@@ -1,0 +1,173 @@
+/* ---- general ----  */
+@font-face {
+  font-family: Montserrat;
+  src: url('../assets/fonts/Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i');
+}
+
+body {
+  font-family: Montserrat;
+  background-color: #f6f6f6;
+}
+
+.enfatic {
+  color: #B03648;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.custom-button-color {
+  background-color: #B03648 !important;
+  color: #fff;
+}
+
+.custom-button-color:hover {
+  background-color: #cc5264 !important;
+  color: #fff;
+}
+
+/* ----- navbar -----  */
+
+nav {
+  box-shadow: 0 4px 2px -2px gray;
+  background-color: #fff;
+}
+
+nav>a img {
+  width: 50px;
+}
+
+/* ------- home ----  */
+.index-main,
+.main-sidenav {
+  margin-top: 6em;
+}
+
+/* ----jumbotron ---  */
+.custom-jumbotron {
+  box-shadow: 0 0 5px gray;
+  background-color: #fff;
+}
+
+.custom-jumbotron h1 {
+  font-weight: 600;
+  color: #B03648;
+}
+
+.custom-jumbotron p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* ----- accordion -----  */
+.custom-accordion {
+  width: 100%;
+  box-shadow: 0 0 5px gray;
+}
+
+.accordion-button {
+  color: #B03648;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.accordion-button:hover {
+  color: #B03648;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.accordion-text p {
+  font-size: 18px;
+}
+
+.accordion-text>p span {
+  color: #B03648;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.accordion-text>div {
+  margin-left: 20px;
+}
+
+/* -----fin home---  */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 90px;
+  box-shadow: 4px 0 2px -2px gray;
+}
+
+.sidenav a {
+  padding: 6px 10px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.subunidades {
+  font-size: 15px !important;
+  margin-left: 15px;
+}
+
+.sidenav a:hover {
+  color: #B03648;
+}
+
+.main-sidenav {
+  margin-left: 200px;
+  padding: 0px 10px;
+}
+
+.unity-title {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.unity-list-container>div ul li {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.unity-list-container>img {
+  width: 300px;
+  object-fit: cover;
+  object-fit: contain;
+}
+
+/* --- unidades ----  */
+.definicionLogica,
+.concepto,
+.arbolPorfirio,
+.juicio,
+.cuadroOposicion {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-sidenav {
+    margin-left: 0;
+  }
+
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  .unity-list-container>img {
+    width: 100%;
+  }
+
+}
